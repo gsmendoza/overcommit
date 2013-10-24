@@ -2,6 +2,7 @@
 
 # Required for Ruby 1.8 compatibility (e.g. OS X), as sad as this makes me
 require 'rubygems'
+require 'bundler/setup'
 require 'overcommit'
 
 Overcommit::Utils.load_hooks
